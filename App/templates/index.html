@@ -41,3 +41,28 @@
 </ul>
 
 {% endblock %}
+
+{% block content %}
+
+<form method="POST" action="/App/templates/index.html">
+<div class="row">
+<div class="input-field col s12">
+<input placeholder="Search" name="Author Name" type="text">
+<label for="author">Search For Author Name</label>
+<input type="submit" value="Submit">
+</form>
+</div>
+</div>
+
+<div class="row">
+</div>
+
+<form method="POST" action="/App/templates/index.html">
+<div class="row">
+<div class="input-field col s12">
+<input placeholder="Search" name="Pub Title" type="text">
+<label for="title">Search For Publication Title</label>
+<input type="submit" value="Submit">
+</form>
+</div>
+</div>
