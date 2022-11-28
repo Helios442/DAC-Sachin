@@ -73,3 +73,4 @@ def create_app(config={}):
 @login_required
 def loggedin():
         return render_template('index.html', user=current_user)
+
